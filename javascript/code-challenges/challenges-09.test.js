@@ -134,7 +134,7 @@ This function should take in an array of data and a character name and return a 
 For example:
 hasChildrenValues(characters, 'Cersei') will return true
 hasChildrenValues(characters, 'Sansa') will return false
------------------------------------------------------------------------------------------------- */
+------------------------------------------------------------------------------------------------- */
 
 const hasChildrenValues = (arr, character) => {
   for (let i = 0; i < arr.length; i++) {
